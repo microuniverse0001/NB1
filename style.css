@@ -224,7 +224,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-weight: 700;
     letter-spacing: 0.8px;
     padding: 8px 10px;
-    background:#3c3c3c;
+    background:#232323;
     border-radius: 8px;
     font-size: 16px;
     color:#58FF71;
@@ -389,8 +389,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     text-size-adjust: 14px;
     text-decoration-line: 140%;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 56px; /* Space between the columns */
-    padding-top: 16px; /* Optional spacing from the heading or image */
+    gap: 40px; /* Space between the columns */
+    padding-top: 8px; /* Optional spacing from the heading or image */
 }
 
 
@@ -434,6 +434,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  }
 .contact h2 {
 	font-weight:700;
+    padding-bottom: 32px;
 }
 
 .contact p{

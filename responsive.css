@@ -55,6 +55,7 @@
     }
     .contact h2 {
        font-size: 36px;
+       padding-bottom: 24px;
     }
     .contact form input, .contact form textarea {
         border-radius: 14px;
@@ -94,7 +95,7 @@
     }
      nav.navbar ul.navbar-nav li.nav-item a.nav-link {
         margin-right: 16px;
-        padding-bottom: 4px;
+        padding-bottom: 24px;
         font-size: 14px;
     }
       nav.navbar a.navbar-brand {
@@ -136,9 +137,9 @@
         margin: 0;
     }
     nav.navbar.scrolled {
-    padding: 16px 0;
-    height: 25%;
-    background-color: #232323;
+        background-color: #121212;
+        height: 25%;
+    
 }
 
 @media (max-width:1199px) {
@@ -150,7 +151,7 @@
     }
      nav.navbar ul.navbar-nav li.nav-item a.nav-link {
         margin-right: 16px;
-        padding-bottom: 4px;
+        padding-bottom: 24px;
         font-size: 14px;
     }
     .banner h1 {
@@ -186,9 +187,8 @@
     }
 }
 nav.navbar.scrolled {
-    padding: 8px 0;
     height: 15%;
-    background-color: #232323;
+    background-color: #121212;
 }
  .footer .social-icon a img {
         margin: 0;
@@ -263,7 +263,7 @@ nav.navbar.scrolled {
         width: 100%;
     }
     nav.navbar ul.navbar-nav li.nav-item a.nav-link {
-        padding: 0 8px;
+       padding-bottom: 24px;
         font-size: 14px;
     }
  
@@ -331,7 +331,7 @@ nav.navbar.scrolled {
     div#navbarNav {
         position: absolute;
         top: 0px;
-        background: #1f1f1f;
+        background:#121212;
         left: 0;
         right: 0;
         transition: 0.3s ease-in-out;
@@ -356,7 +356,7 @@ nav.navbar.scrolled {
 
     }
     .two-column-text {
-        gap:16px;
+        gap:8px;
     }
     .newsletter-bx {
         border-radius: 35px;
@@ -424,9 +424,6 @@ nav.navbar.scrolled {
     }
     nav.navbar.scrolled {
         padding: 8px 0;
-    }
-    nav.navbar.scrolled div#navbarNav {
-        top: 56px;
     }
    
     .project .nav.nav-pills {
