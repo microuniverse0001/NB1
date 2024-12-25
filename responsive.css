@@ -355,7 +355,10 @@ nav.navbar.scrolled {
         margin-bottom: 16px;
 
     }
-   
+   .two-column-text {
+    gap: 0px; /* Space between the columns */
+   }
+
     .newsletter-bx {
         border-radius: 35px;
         padding: 35px 14px;

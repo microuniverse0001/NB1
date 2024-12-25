@@ -386,8 +386,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .two-column-text {
     display: grid;
-    text-size-adjust: 14px;
-    text-decoration-line: 140%;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     gap: 56px; /* Space between the columns */
     padding-top: 16px; /* Optional spacing from the heading or image */
@@ -402,8 +400,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     
 }
 
-.two-column-text p:nth-child(even) {
-     
+.two-column-text p:nth-child(even) { 
      padding-bottom: 16px;
      color: #dcdcdc;
     border-radius: 8px;
@@ -439,7 +436,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding-top:16px;
     font-family:Helvetica;
     text-size-adjust: 14px;
-    text-decoration-line: 140%;
     line-height: 150%;
     font-size: 16px;
     
