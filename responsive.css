@@ -321,7 +321,13 @@ nav.navbar.scrolled {
    
     }
 }
-
+   .contact h2 {
+	font-size: 24px;
+    margin-bottom: 16px;
+}
+.contact{
+    margin-top:24px;
+}
  .footer .social-icon a img {
         margin: 0;
     }
@@ -344,7 +350,7 @@ nav.navbar.scrolled {
         padding: 100px 0 50px 0;
     }
     .banner h1 {
-        font-size: 24px;
+        font-size: 32px;
     }
    
     .banner img {
@@ -352,12 +358,8 @@ nav.navbar.scrolled {
     }
     .contact img {
         width: 100%;
-        margin-bottom: 16px;
 
     }
-   .two-column-text {
-    gap: 0px; /* Space between the columns */
-   }
 
     .newsletter-bx {
         border-radius: 35px;
@@ -426,7 +428,9 @@ nav.navbar.scrolled {
     nav.navbar.scrolled {
         padding: 8px 0;
     }
-   
+   .project {
+   margin-top:24px;
+  }
     .project .nav.nav-pills {
         width: 100%;
         border-radius: 0;
@@ -439,12 +443,12 @@ nav.navbar.scrolled {
     }
     .contact h2 {
 	font-size: 24px;
+    margin-bottom: 16px;
 }
-    .books h2{
-       font-size:48px;
-       padding-bottom: 16px;
-    }
-
+.contact{
+    margin-top:24px;
+}
+    .
     button#pills-contact-tab {
         /* border: 0px solid rgba(255, 255, 255, 0.5); */
         border-radius: 0;
