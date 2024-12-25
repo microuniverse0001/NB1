@@ -6,7 +6,8 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box
+	box-sizing: border-box;
+    
 }
 html {
     
@@ -20,13 +21,14 @@ body {
     font-size: 16px;
 	overflow-x: hidden;
     position: relative;
-	background-color: #232323;
+	background-color: #121212;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 	line-height: normal;
 }
+
 p, a, li, button, ul {
 	margin: 0;
 	padding: 0;
@@ -35,7 +37,7 @@ p, a, li, button, ul {
 
 }
 a:hover {
-	text-decoration: none
+	text-decoration: none;
 }
 img {
 	width: 100%;
@@ -58,6 +60,9 @@ input:focus, textarea:focus, select:focus {
 
 
 /************ Navbar Css ************/
+.banner{
+    background-color: #121212;
+}
 nav.navbar {
     padding: 24px 0;
     position: fixed;
@@ -214,13 +219,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 /************ Banner Css ************/
-.banner {
-   padding-bottom: 500px;
-    background-image: url('banner-bg.png');
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 .banner .taglin {
     font-weight: 700;
     letter-spacing: 0.8px;
@@ -303,7 +302,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project {  
-    background-color: #232323;
+     background-color: #121212;
     position: relative;
      margin-top:56px
    
@@ -377,7 +376,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ About me ************/
 .contact {
-     background-color: #232323;
+     background-color: #121212;
      align-items:center; 
      display: flex;
      justify-content: space-between;
@@ -389,17 +388,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     display: grid;
     text-size-adjust: 14px;
     text-decoration-line: 140%;
-    color: #121212;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     gap: 56px; /* Space between the columns */
-    margin-top: 16px; /* Optional spacing from the heading or image */
+    padding-top: 16px; /* Optional spacing from the heading or image */
 }
 
 
 
-.two-column-text p:nth-child(odd) {
-    
-     padding: 16px;
+.two-column-text p:nth-child(odd) {   
+     padding-bottom: 16px;
      color: #dcdcdc;
      border-radius: 8px;
      font-weight:300;
@@ -408,14 +405,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .two-column-text p:nth-child(even) {
      
-     padding: 16px;
+     padding-bottom: 16px;
      color: #dcdcdc;
     border-radius: 8px;
      font-weight:300;
 }
 .two-column-text p {
     text-align: justify; /* Makes the text look neat */
-    margin-bottom: 24px; /* Adds spacing between paragraphs */
+    /* Adds spacing between paragraphs */
 }
 
 /* For smaller screens, fallback to a single column */
@@ -432,13 +429,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding-bottom: 32px;
 
 }
-
+ p img{
+    padding-bottom: 8px;
+ }
 .contact h2 {
 	font-weight:700;
 }
 
 .contact p{
-    margin: 0;
+    padding-top:16px;
     font-family:Helvetica;
     line-height: 140%;
     font-size: 16px;
@@ -450,7 +449,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-    margin-top: 56px;
+     background-color: #121212;
+    margin-top: 48px;
+    padding-top:16px;
     background-position: center;
     background-size: cover;
     align-items: center;
