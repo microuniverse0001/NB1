@@ -37,7 +37,7 @@ p, a, li, button, ul {
 
 }
 a:hover {
-	text-decoration: none;
+	text-decoration: none
 }
 img {
 	width: 100%;
@@ -172,7 +172,7 @@ nav.navbar .navbar-toggler:focus {
     box-shadow: none;
 }
 nav.navbar .navbar-toggler-icon {
-	width: 32px;
+	width: 40px;
 	height: 18px;
 	background-image: none;
 	position: relative;
@@ -185,7 +185,7 @@ nav.navbar .navbar-toggler-icon:focus {
 }
 nav.navbar .navbar-toggler-icon:after,
 nav.navbar .navbar-toggler-icon:before {
-	width: 32px;
+	width: 40px;
 	position: absolute;
 	height: 2px;
 	background-color: #fff;
@@ -224,7 +224,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-weight: 700;
     letter-spacing: 0.8px;
     padding: 8px 10px;
-    background:#232323;
+    background:#3c3c3c;
     border-radius: 8px;
     font-size: 16px;
     color:#58FF71;
@@ -389,10 +389,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     text-size-adjust: 14px;
     text-decoration-line: 140%;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 40px; /* Space between the columns */
-    padding-top: 8px; /* Optional spacing from the heading or image */
+    gap: 56px; /* Space between the columns */
+    padding-top: 16px; /* Optional spacing from the heading or image */
 }
-
 
 
 .two-column-text p:nth-child(odd) {   
@@ -434,13 +433,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  }
 .contact h2 {
 	font-weight:700;
-    padding-bottom: 32px;
 }
 
 .contact p{
     padding-top:16px;
     font-family:Helvetica;
-    line-height: 140%;
+    text-size-adjust: 14px;
+    text-decoration-line: 140%;
+    line-height: 150%;
     font-size: 16px;
     
 }
@@ -451,7 +451,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
      background-color: #121212;
-    margin-top: 48px;
+    margin-top: 56px;
     padding-top:16px;
     background-position: center;
     background-size: cover;

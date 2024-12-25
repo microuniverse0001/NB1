@@ -95,7 +95,7 @@
     }
      nav.navbar ul.navbar-nav li.nav-item a.nav-link {
         margin-right: 16px;
-        padding-bottom: 24px;
+        padding-bottom: 16px;
         font-size: 14px;
     }
       nav.navbar a.navbar-brand {
@@ -151,7 +151,7 @@
     }
      nav.navbar ul.navbar-nav li.nav-item a.nav-link {
         margin-right: 16px;
-        padding-bottom: 24px;
+        padding-bottom: 4px;
         font-size: 14px;
     }
     .banner h1 {
@@ -263,7 +263,7 @@ nav.navbar.scrolled {
         width: 100%;
     }
     nav.navbar ul.navbar-nav li.nav-item a.nav-link {
-       padding-bottom: 24px;
+       
         font-size: 14px;
     }
  
@@ -355,9 +355,7 @@ nav.navbar.scrolled {
         margin-bottom: 16px;
 
     }
-    .two-column-text {
-        gap:8px;
-    }
+   
     .newsletter-bx {
         border-radius: 35px;
         padding: 35px 14px;
